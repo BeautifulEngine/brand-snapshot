@@ -4,6 +4,10 @@ Get a brand's visual and verbal basics onto two pages in minutes: colors you can
 
 **What you get:** Reads any brand's live website and returns a two-page brand snapshot PDF plus design tokens (JSON and CSS) - the color palette with hex, RGB and contrast checks, typefaces with free stand-ins, the logo described in words with links to official files, UI patterns like corner radius and buttons, voice samples, imagery style, and where the official guidelines live.
 
+![Pages from a sample Brand Snapshot: color and type, logo, interface, voice and resources](docs/preview.png)
+
+**See the full sample:** [Beautiful-Engine-Brand-Snapshot-2026-11.pdf](examples/Beautiful-Engine-Brand-Snapshot-2026-11.pdf) (a snapshot of beautifulengine.com)
+
 Made by Beautiful Engine · [beautifulengine.com](https://www.beautifulengine.com) · [Questions or ideas? Open an issue](https://github.com/BeautifulEngine/brand-snapshot/issues/new)
 
 ## Install
@@ -36,6 +40,8 @@ mkdir -p ~/.claude/skills && cp -r brand-snapshot/brand-snapshot ~/.claude/skill
 Then use `/brand-snapshot`.
 
 ## Usage
+
+![Animated demo: example requests typed into Claude, each followed by what the Brand Snapshot skill makes](docs/how-to-ask.gif)
 
 ```
 /brand-snapshot <url or brand name> [tokens only]
